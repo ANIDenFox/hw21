@@ -70,7 +70,7 @@ class UI extends JFrame implements MouseListener {
                 remove(button);
                 buttons.remove(button);
                 revalidate();
-                repainпшеt();
+                repaint();
             }
         });
     }
